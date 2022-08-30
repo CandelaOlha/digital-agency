@@ -13,6 +13,10 @@ body {
   background-color: #292929;
 }
 
+.section {
+  padding: 60px 0;
+}
+
 /* Fonts */
 
 .section-title {
@@ -124,10 +128,31 @@ body {
 }
 
 .hero-image-container {
-  left: 200px;
+  left: 100px;
   position: relative;
 }
 
 .hero-image {
   max-width: 100%;
+}
+
+/* About section */
+
+.about-section {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-section-container {
+  max-width: 933px;
+  width: 100%;
+}
+
+.about-section-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-section-text-container {
+  width: 60%;
 }
