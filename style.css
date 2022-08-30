@@ -6,6 +6,36 @@
 }
 
 html {
-  background-color: #292929;
   scroll-behavior: smooth;
+}
+
+/* Fonts */
+
+.section-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.paragraph {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.link {
+  border-bottom: 1px solid #f8f8f8;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* Body styles */
+
+body {
+  background-color: #292929;
 }
