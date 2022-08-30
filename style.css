@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #292929;
+}
+
 /* Fonts */
 
 .section-title {
@@ -34,8 +38,45 @@ html {
   text-decoration: none;
 }
 
-/* Body styles */
+/* Navbar */
 
-body {
-  background-color: #292929;
+.navbar-container {
+  align-items: center;
+  border-bottom: 1px solid #f8f8f8;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1116px;
+  padding: 20px 40px;
+  width: 100%;
+}
+
+.brand-name {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-item {
+  list-style-type: none;
+  margin: 0 20px;
+}
+
+.menu-link {
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+
+.language-switch {
+    font-family: "Raleway", sans-serif; 
 }
