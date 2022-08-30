@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #292929;
+  scroll-behavior: smooth;
+}
