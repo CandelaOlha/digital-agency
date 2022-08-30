@@ -42,7 +42,7 @@ body {
 
 .navbar-container {
   align-items: center;
-  border-bottom: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgb(248 248 248 / 15%);
   display: flex;
   justify-content: center;
 }
@@ -78,5 +78,56 @@ body {
 }
 
 .language-switch {
-    font-family: "Raleway", sans-serif; 
+  font-family: "Raleway", sans-serif;
+}
+
+/* Page container */
+
+.main-content-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.main-content {
+  max-width: 1116px;
+  padding: 100px 40px;
+  width: 100%;
+}
+
+/* Hero section */
+
+.hero-section-text-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.hero-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 142px;
+  font-weight: 700;
+  line-height: 0.8;
+  max-width: 860px;
+}
+
+.hero-title span {
+  text-decoration: underline;
+}
+
+.hero-text {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.4;
+  text-align: right;
+}
+
+.hero-image-container {
+  left: 200px;
+  position: relative;
+}
+
+.hero-image {
+  max-width: 100%;
 }
