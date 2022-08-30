@@ -30,7 +30,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.8;
+  line-height: 1.6;
   margin-bottom: 40px;
 }
 
@@ -155,4 +155,33 @@ body {
 
 .about-section-text-container {
   width: 60%;
+}
+
+/* Services section */
+
+.services-section {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service {
+  border-bottom: 1px solid rgb(248 248 248 / 15%);
+  width: 650px;
+}
+
+.service-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.services-paragraph {
+  text-align: right;
+  width: 280px;
+}
+
+.service-description {
+  margin-bottom: 20px;
 }
