@@ -230,3 +230,64 @@ body {
 .client-name span {
   font-weight: 600;
 }
+
+/* Contact section */
+
+.contact-section-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.contact-details-container {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  background-color: rgb(248 248 248 / 15%);
+  height: 130px;
+  margin: 60px 0;
+  width: 1px;
+}
+
+.email-container {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+}
+
+.email-container p {
+  font-weight: 600;
+}
+
+.email-link {
+  text-decoration: none;
+}
+
+.email-link::after {
+  background-color: #f8f8f8;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  transition: 0.4s;
+}
+
+.email-link:hover::after {
+  width: 100%;
+}
+
+.social-media-icons {
+  display: flex;
+}
+
+.social-media-item {
+  font-size: 18px;
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+.social-media-link {
+  text-decoration: none;
+}
