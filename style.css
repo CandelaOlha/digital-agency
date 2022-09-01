@@ -167,6 +167,7 @@ body {
 
 .service {
   border-bottom: 1px solid rgb(248 248 248 / 15%);
+  cursor: pointer;
   width: 650px;
 }
 
@@ -280,6 +281,7 @@ body {
 
 .social-media-icons {
   display: flex;
+  margin-top: 60px;
 }
 
 .social-media-item {
@@ -313,4 +315,144 @@ body {
 
 .scroll-to-top {
   text-decoration: none;
+}
+
+/* Responsive */
+
+/* Main content */
+
+@media screen and (max-width: 595px) {
+  .main-content {
+    padding: 60px 40px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Navbar */
+
+@media screen and (max-width: 780px) {
+  .menu, .language-switch {
+    display: none;
+  }
+}
+
+/* Hero section */
+
+@media screen and (max-width: 1062px) {
+  .hero-title {
+    font-size: 128px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .hero-section-text-container {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  .hero-title {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  .hero-title {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .hero-title {
+    font-size: 80px;
+  }
+}
+
+/* About */
+
+@media screen and (max-width: 788px) {
+  .about-section-container {
+    flex-direction: column;
+  }
+  .about-section-text-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .about-section-text-container {
+    width: 100%;
+  }
+}
+
+/* Services */
+
+@media screen and (max-width: 1022px) {
+  .services-section {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .services-paragraph {
+    text-align: left;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .service {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .service {
+    width: 360px;
+  }
+  .service-name {
+    font-size: 18px;
+  }
+}
+
+/* Clients */
+
+@media screen and (max-width: 810px) {
+  .client-name {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .client {
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .client {
+    width: 100%;
+    margin: 30px 0;
+  }
+}
+
+/* Contact */
+
+@media screen and (max-width: 860px) {
+  .contact-section-paragraph, .email-container {
+    font-size: 36px;
+  }
+  .contact-details-container {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contact-section-paragraph, .email-container {
+    font-size: 24px;
+  }
 }
