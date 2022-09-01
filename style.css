@@ -185,3 +185,48 @@ body {
 .service-description {
   margin-bottom: 20px;
 }
+
+/* Clients section */
+
+.clients-title {
+  margin-bottom: 30px;
+}
+
+.clients-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.client {
+  margin: 30px;
+  position: relative;
+  width: calc(100% / 2 - 60px);
+}
+
+.client::after {
+  background: linear-gradient(180deg, rgba(41,41,41,0) 60%, rgba(41,41,41,1) 100%);
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.client-image {
+  max-width: 100%;
+}
+
+.client-name {
+  bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  left: 30px;
+  position: absolute;
+  z-index: 1;
+}
+
+.client-name span {
+  font-weight: 600;
+}
